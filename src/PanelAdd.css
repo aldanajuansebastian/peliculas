@@ -1,0 +1,35 @@
+.fondo {
+    position: fixed;
+    top:20px;
+    left: 30%;
+    margin: auto;
+    padding: 50PX;
+    width: 500px;
+    height: AUTO;
+    background-color: rgba(0, 0, 0, 0.966);
+    color:white;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.add-item-panel {
+    position: relative;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+}
+option {
+    font-size: 20px;
+    background-color: white;
+}
+
+form>p>input {
+    margin:10px;
+}
+
+.add-item-panel>form>h3 {
+    color:rgb(86, 86, 128);
+}
+

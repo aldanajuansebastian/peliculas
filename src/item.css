@@ -1,0 +1,26 @@
+.item {
+    display: inline-block;
+    width: 250px;
+    margin:15px;
+    border-radius: 8px;
+    align-items:center;
+    color: white;
+}
+
+.item >.nombreFilm {
+    color: White;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item >.genero {
+    font-size: 16px;
+    text-align: center;
+    color: teal;
+}
+
+.star {
+    margin:3px;
+    width: 20px;
+}
+

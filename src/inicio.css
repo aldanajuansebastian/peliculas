@@ -1,0 +1,57 @@
+.inicio {
+   background: url(fondo.png) no-repeat center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 700px;
+   width: 100% ;
+}
+
+
+.logop {
+    margin: 0 8%;
+}
+
+.contenedor {
+    position:absolute;
+    width: 50%;
+    height: 100%;
+    margin: -200px, 20px, 50px, 20px;
+    padding: 150px 50px;
+}
+
+.inicio > .contenedor > h1 {
+    font-family:Courier New; 
+}
+
+.inicio > .contenedor > h2 {
+    font-family:Candara; 
+    color:gray;
+    margin-left:10%;
+}
+
+.inicio > .contenedor > h3 {
+    font-family:Courier New; 
+    color:white;
+    margin-left:10%;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+.inicio > .contenedor > h4 {
+    font-family:Courier New; 
+}
+
+
+.btn-blue {
+    width:200px;
+    height:50px;
+    background: #7969AF;
+    font-family:Courier New;
+    font-size:25px;
+    font-weight: bold;
+    margin: 2% 10%;
+}
+
+
