@@ -4,19 +4,18 @@ class Buscar extends React.Component {
 
     constructor(props) {
         super(props)
-        this.state = {value: ''};
-        this.onChangeEvent = this.onChangeEvent.bind(this);
     }
     
-    onChangeEvent(e) {
-        this.setState({value: e.target.value})
+    onChangeEvent = e =>  {
         const query  = e.target.value.toString().toLowerCase();
         this.props.onsearch(query);
     }
 
     render(){
         return (
-        <input type="text" value="" placeholder="Buscar pelicula..." onChange={this.onChangeEvent} />
+            <input type="text" placeholder="Buscar pelicula..." onChange={this.onChangeEvent} />
+        
+        
     );}
     
 }

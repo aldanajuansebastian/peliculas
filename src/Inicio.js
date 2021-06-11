@@ -12,7 +12,6 @@ function Inicio (props) {
                 <br/>
                 <button className="btn-blue" type="button">Buscar</button>
             </div>
-            
         </div>
 
     )
