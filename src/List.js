@@ -19,6 +19,8 @@ function List (props) {
                         onremove={props.onremove}
                         
                     />
+
+                    
                         
                 )
             }

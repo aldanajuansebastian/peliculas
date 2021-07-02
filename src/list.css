@@ -5,3 +5,13 @@
     margin:auto;
     align-items: center;
 }
+
+
+select {
+    background: #7969AF;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 50px;
+ }

@@ -23,18 +23,14 @@ class Menu extends React.Component {
     render ()
     {
         return (
-            <div className="container">
+            <section className="container" id="buscar">
                 <div className="subcontainer">
-                    <div className="logo">
-                        {this.props.title}
-                    </div>
                     <div className="buscar">
                         <Buscar onsearch={this.props.onsearch}/>
-                        
                     </div>
+
                     <div className="actions">
-                        <button onClick={this.add} className="btnAdd"> + Añadir pelicula</button>
-                        
+                        <button onClick={this.add} className="btn-blue"> Añadir Filme</button>
                     </div>
                 </div>
                 {
@@ -44,7 +40,7 @@ class Menu extends React.Component {
                     ''
                 }
                 
-            </div>
+            </section>
         );
     }
 }

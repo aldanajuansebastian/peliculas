@@ -62,11 +62,11 @@ class Item extends React.Component {
                         <option value="4">4</option>
                         <option value="5">5</option>
                     </select>
-                    
+                    <div className="eliminar">
+                        <button className="btn-red" onClick={this.onRemove}>Eliminar</button>
+                    </div>
                 </div>
-                <div className="btnDelete">
-                    <button onClick={this.onRemove}>Eliminar</button>
-                </div>
+                
             </div>
         );
     }

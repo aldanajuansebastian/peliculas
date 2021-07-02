@@ -3,6 +3,7 @@ import './App.css';
 import Menu from './Menu';
 import List from './List';
 import Inicio from './Inicio';
+import Footer from './Footer';
 
 class App extends React.Component {
 
@@ -10,12 +11,12 @@ class App extends React.Component {
     super(props);
     this.state = {
       peliculas:[
-        {id:0, calificacion:4, nombreFilm:'El Adios', imagen:'Adios.png', genero:'Drama'},
+        {id:0, calificacion:2, nombreFilm:'El Adios', imagen:'Adios.png', genero:'Drama'},
         {id:1, calificacion:4, nombreFilm:'La Evidencia', imagen:'Evidencia.png', genero:'Suspenso'},
-        {id:2, calificacion:4, nombreFilm:'El Asalto', imagen:'Asalto.png', genero:'Terror'},
-        {id:3, calificacion:4, nombreFilm:'El Cofre de la Muerte', imagen:'ElCofre.png', genero:'Terror'},
-        {id:4, calificacion:4, nombreFilm:'El Hacker', imagen:'ElHacker.png', genero:'Accion'},
-        {id:5, calificacion:4, nombreFilm:'Armas y Cascos', imagen:'Armas.png', genero:'Accion'}
+        {id:2, calificacion:3, nombreFilm:'El Asalto', imagen:'Asalto.png', genero:'Terror'},
+        {id:3, calificacion:4, nombreFilm:'El Cofre', imagen:'ElCofre.png', genero:'Terror'},
+        {id:4, calificacion:5, nombreFilm:'El Hacker', imagen:'ElHacker.png', genero:'Accion'},
+        {id:5, calificacion:1, nombreFilm:'Armas y Cascos', imagen:'Armas.png', genero:'Accion'}
       ],
       copyPeliculas: []
     };
@@ -92,6 +93,7 @@ class App extends React.Component {
             onupdaterating={this.onUpDateRating}
             onremove={this.onRemove}
           />
+          <Footer />
         </div>
       );
     }
