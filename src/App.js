@@ -29,19 +29,19 @@ class App extends React.Component {
   initPeliculas = () => {
     this.setState((state,props) => (
       {
-        copyPeliculas: [... state.peliculas]
+        copyPeliculas: [...state.peliculas]
       }
     ));
   }
 
 
   onAdd = (item) => {
-    let temp = [... this.state.peliculas];
+    let temp = [...this.state.peliculas];
     const id = temp[temp.length - 1].id + 1;
     item['id'] = id;
     temp.push(item);
 
-    this.setState({peliculas:[... temp]});
+    this.setState({peliculas:[...temp]});
     this.initPeliculas();
   }
 
@@ -57,12 +57,12 @@ class App extends React.Component {
           res.push(item);
         }
       });
-      this.setState({copyPeliculas: [... res]});
+      this.setState({copyPeliculas: [...res]});
     }
   }
 
   onUpDateRating = (item) => {
-    var temp = [... this.state.peliculas];
+    var temp = [...this.state.peliculas];
     const index = temp.findIndex(x => x.id === item.id);
 
     temp[index].nombreFilm = item.nombreFilm;
@@ -70,15 +70,15 @@ class App extends React.Component {
     temp[index].imagen = item.imagen;
     temp[index].calificacion = item.calificacion;
 
-    this.setState({peliculas: [... temp]});
+    this.setState({peliculas: [...temp]});
     this.initPeliculas();
   }
 
   onRemove = (id) => {
-    var temp = [... this.state.peliculas];
+    var temp = [...this.state.peliculas];
     const res = temp.filter(item => item.id != id)
 
-    this.setState({peliculas: [... res]});
+    this.setState({peliculas: [...res]});
     this.initPeliculas();
   }
 
