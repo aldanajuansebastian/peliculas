@@ -48,10 +48,10 @@ class PanelAdd extends React.Component {
         return (
             <div className="fondo">
                 <div className="container2">
-                    <img src="img/fondo2.png" width="250%"></img>
+                    <img src="img/fondo2.png" width="250%" alt="Camara"></img>
                 </div>
                 <div className="add-item-panel">
-                    <img src="img/logocp.png" width="80%"></img>
+                    <img src="img/logocp.png" width="80%" alt="Logo Cinepelis"></img>
                     <form onSubmit={this.onSubmit}>
                         <h2>AÑADIR UNA NUEVA PELÍCULA</h2>
                         <p>

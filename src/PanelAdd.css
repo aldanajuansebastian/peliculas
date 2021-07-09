@@ -71,5 +71,18 @@ form >.btn-red {
     margin: 2% 10%;
 }
 
+@media (max-width: 700px) {
+    .container2 {
+        display: none;
+    
+    }
+    .add-item-panel {
+        width: 100%;
+        margin: 120px 0 0 0;
+        padding:0;
+        text-align: center;
+    }
+}
+
 
 

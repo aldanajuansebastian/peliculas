@@ -44,14 +44,14 @@ class Item extends React.Component {
     render(){
         return (
             <div className="item">
-                <div className="imagen"><img src={'img/' + this.state.imagen} width='100%'/></div>
+                <div className="imagen"><img src={'img/' + this.state.imagen} width='100%' alt="Poster pelicula"/></div>
                 <div className="nombreFilm">{this.state.nombreFilm}</div>
                 <div className="genero">{this.state.genero}</div>
                 <div className="calificacion">
                     <p>
                     {
                         this.state.estrellas.map(x =>
-                            <img className="star" src="img/star.png" />)
+                            <img className="star" src="img/star.png" alt="star"/>)
                         }
                     </p>
                     <p>Calificacion:</p>
