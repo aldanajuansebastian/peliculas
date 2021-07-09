@@ -45,5 +45,6 @@
 @media (max-width: 500px) {
     .list {
         display: flex;
+        flex-direction: column;
     }
 }
