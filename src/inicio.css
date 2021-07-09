@@ -45,6 +45,10 @@
     font-family:Courier New; 
 }
 
+#fontCP {
+    color:#7969AF;
+}
+
 
 .inicio> .contenedor > .btn-blue {
     width:200px;
